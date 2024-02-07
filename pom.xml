@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rocketseat</groupId>
-	<artifactId>certification_nwl</artifactId>
+	<artifactId>certification_nlw</artifactId>
 	<version>1.0.0</version>
 	<name>certification_nwl</name>
 	<description>certification_nwl</description>
