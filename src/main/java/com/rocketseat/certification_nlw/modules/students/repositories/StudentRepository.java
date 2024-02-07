@@ -1,6 +1,6 @@
-package com.rocketseat.certification_nwl.modules.students.repositories;
+package com.rocketseat.certification_nlw.modules.students.repositories;
 
-import com.rocketseat.certification_nwl.modules.students.entities.StudentEntity;
+import com.rocketseat.certification_nlw.modules.students.entities.StudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

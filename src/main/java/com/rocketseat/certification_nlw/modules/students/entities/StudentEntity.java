@@ -1,4 +1,4 @@
-package com.rocketseat.certification_nwl.modules.students.entities;
+package com.rocketseat.certification_nlw.modules.students.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
