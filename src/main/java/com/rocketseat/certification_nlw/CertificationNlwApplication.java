@@ -1,13 +1,13 @@
-package com.rocketseat.certification_nwl;
+package com.rocketseat.certification_nlw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CertificationNwlApplication {
+public class CertificationNlwApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CertificationNwlApplication.class, args);
+		SpringApplication.run(CertificationNlwApplication.class, args);
 	}
 
 }
