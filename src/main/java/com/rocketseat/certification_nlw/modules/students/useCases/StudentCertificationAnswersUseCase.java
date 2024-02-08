@@ -47,7 +47,7 @@ public class StudentCertificationAnswersUseCase {
 
         AtomicInteger correctAnswers = new AtomicInteger(0);
 
-        dto.getQuestionsAnswers().forEach(questionAnswer -> {
+        dto.getQuestionsAnswers().stream().forEach(questionAnswer -> {
             var question = questionsEntity.stream()
                     .filter(q -> q.getId().equals(questionAnswer.getQuestionID())).findFirst().get();
 
@@ -88,7 +88,7 @@ public class StudentCertificationAnswersUseCase {
 
         var certificationStudentCreated = certificationStudentRepository.save(certificationStudentEntity);
 
-        answersCertifications.forEach(answerCertification -> {
+        answersCertifications.stream().forEach(answerCertification -> {
             answerCertification.setCertificationId(certificationStudentEntity.getId());
             answerCertification.setCertificationStudentEntity(certificationStudentEntity);
         });
